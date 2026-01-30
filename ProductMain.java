@@ -16,7 +16,7 @@ price=0;
 Product(int c,String n,double p){
 pcode=c;
 pname=n;
-price=pclear;
+price=p;
 }
 void display(){
 System.out.println(pcode+"\t"+pname+"\t"+price);
